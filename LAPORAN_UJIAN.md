@@ -27,9 +27,9 @@
 
 ## D. Git
 
-- Branch (jika membuat): tidak ada; folder ini belum diinisialisasi sebagai repository Git.
-- Ringkasan commit: tidak ada commit.
-- Hasil pemeriksaan `git status`: perintah gagal dengan pesan `fatal: not a git repository`; tidak ada status Git yang dapat dilaporkan.
+- Branch (jika membuat): `main`, terhubung ke remote `origin` pada repository GitHub yang diberikan.
+- Ringkasan commit: `81c62d8 chore: initialize project with UTS fixes` (snapshot kondisi proyek setelah perbaikan; bukan baseline sebelum perbaikan).
+- Hasil pemeriksaan `git status`: setelah commit laporan dipush, branch `main` tersinkron dengan `origin/main` dan working tree bersih.
 
 ## E. Pemakaian kecerdasan buatan (jika digunakan)
 
